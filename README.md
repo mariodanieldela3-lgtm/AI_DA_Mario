@@ -5,7 +5,7 @@ Proyecto final de ML. Autores: Mario Daniel De La Luz Aldana e Ian Gonzales Seef
 ## Dataset
 Top 100 canciones más reproducidas en Spotify (`data/top 100 streamed_songs.csv`). Cada fila es una canción (o una versión/remix) con `id`, `name` y 12 variables de audio (`duration`, `energy`, `key`, `loudness`, `mode`, `speechiness`, `acousticness`, `instrumentalness`, `liveness`, `valence`, `tempo`, `danceability`). No hay valores faltantes; 14 filas repetidas por `id` se eliminan en el modelo final (quedan 86 canciones).
 
-> Fuente original: _(agregar link de Kaggle si aplica; el CSV ya está en `data/`)_.
+> Fuente original: [Top 100 Most Streamed Songs on Spotify (Kaggle, pavan9065)](https://www.kaggle.com/datasets/pavan9065/top-100-most-streamed-songs-on-spotify)
 
 ## Problema
 - **y:** `energy` (0 a 1)
